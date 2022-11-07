@@ -1,0 +1,82 @@
+<html>
+    <head>
+       <meta name="viewport" content="with=device=width, initial-scale=1.0">
+        <title>PM Site</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css">
+    </head> 
+    
+    <body>
+        <section class="header">
+            <nav>
+                 <a href="PM Site.html"><img src="images/pma.png"></a>   
+                    <div class="nav-links" id="navLinks">
+                        
+                        <i class="fa fa-times" onclick="hideMenu()"></i>
+                        <ul>
+                            <li><a href="">HOME</a></li>
+                            <li><a href="">ABOUT</a></li>
+                            <li><a href="">CONTACT</a></li>
+                            <li><a href="">OTHER INFO</a></li>
+                            
+                        </ul>
+                    </div>
+                    <i class="fa fa-bars" onclick="showMenue()"></i>
+            </nav>
+            <div class="text-box">
+                <h1>Welcome to my official Website!</h1>
+                <p>
+                    I'm Pahasara Methnindu Aponsu.Here is my official website and this is under maintenance.
+                </p>
+                <a href="" class="hero-btn">visit us to know more  ></a>
+                <h2>contacts</h2>
+            </div>
+
+        </section>
+<!------course------->
+        <section class="course">
+            <h1>Pahasara Methnindu Aponsu</h1>
+            <p>Attend Thurstan College. Live In Koswatte. Sri Lankan.</p>
+
+            <div class="row">
+                <div class="course-col">
+                    <h3>Who Am I</h3>
+                    <p>I am Pahasara Methnindu Aponsu. 345/4 <br>Ekamuthu Mawatha, Koswatte, Thalangama <br>North is my address.I'm a Sri Lankan</p>
+                </div>
+                <div class="course-col">
+                    <h3>What I Do</h3>
+                    <p>I attend Thurstan College in Colombo 07.<br>I'm in grade 09. Nowadays I"m following a<br> web developing Course.</p>
+                </div>
+                <div class="course-col">
+                    <h3>What about this page</h3>
+                    <p>I'm creating web sites as a hobby. This is <br>my new web site. I developed this to do <br>my studies.</p>
+                </div>
+            </div>
+
+
+        </section>
+        <section class="footer">
+           
+            <h4>Powered by PM EDITS*</h4>
+            <img src="images/apps.png">
+
+
+        </section>
+
+<!-----JavaScript For Toggle Menue------>
+
+        <script>
+
+            var navLinks = document.getElementById("navLinks")
+
+            function showMenue(){
+                navLinks.style.right = "0";
+            }
+            function hideMenue(){
+                navLinks.style.right = "-270px";
+            }
+        </script>
+        
+    </body>
+    
+</html>
